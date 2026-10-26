@@ -1,0 +1,12 @@
+[functions.nam-math-grade]
+verify_jwt = true
+
+[functions.nam-math-memo]
+verify_jwt = true
+
+[functions.nam-math-library-admin]
+verify_jwt = true
+
+[functions.nam-math-document]
+# Free paper viewing is unauthenticated; memo requests self-verify JWT inside the handler.
+verify_jwt = false

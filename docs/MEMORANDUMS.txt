@@ -1,0 +1,2 @@
+Original sample worked solutions, maintained server-side in nammath_private.nammath_answers.
+These are illustrations, not extracted textbook solutions or exam-paper memorandums.

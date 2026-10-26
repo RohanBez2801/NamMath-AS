@@ -1,0 +1,26 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+private/
+
+# Learner uploads and paid content should go to protected storage,
+# not a public source-code repository.
+uploads/
+uploaded-papers/
+*.pdf
+
+# Development / generated output
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#211E19" />
+  <meta name="description" content="NamMath AS — focused NSSCAS mathematics exam preparation for Namibia." />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/vendor/katex.css" />
+  <link rel="stylesheet" href="/styles.css" />
+  <title>NamMath AS — Your Equation to Success</title>
+</head>
+<body>
+ <div class="shell">
+  <aside class="sidebar" id="sidebar">
+    <div class="brand"><div class="brand-mark"><svg viewBox="0 0 52 52" aria-hidden="true"><path d="M10 37V12M10 37H42" stroke="currentColor" stroke-width="2.2" fill="none" stroke-linecap="round"/><path d="M12 33Q22 7 40 14" stroke="#D6AF67" stroke-width="3.6" fill="none" stroke-linecap="round"/><circle cx="39" cy="14" r="3" fill="#D6AF67"/></svg></div><div><div class="brand-title">NamMath <span>AS</span></div><div class="brand-sub">YOUR EQUATION TO SUCCESS</div></div></div>
+    <div class="side-heading">WORKSPACE</div>
+    <nav class="nav" id="nav">
+      <button class="nav-link active" data-view="home"><span class="nav-icon">▦</span> Dashboard</button>
+      <button class="nav-link" data-view="topics" data-filter="all"><span class="nav-icon">▤</span> All Topics <span class="nav-badge">15</span></button>
+      <button class="nav-link" data-view="topics" data-filter="1"><span class="nav-icon">①</span> Mathematics 1</button>
+      <button class="nav-link" data-view="topics" data-filter="2"><span class="nav-icon">②</span> Mathematics 2</button>
+      <button class="nav-link" data-view="notes"><span class="nav-icon">✎</span> Study Notes</button>
+      <button class="nav-link" data-view="past"><span class="nav-icon">▧</span> 2021–2025 Papers</button>
+      <button class="nav-link" data-view="regional"><span class="nav-icon">◎</span> 2026 Regional Mocks</button>
+      <button class="nav-link" data-view="papers"><span class="nav-icon">◷</span> Mini Mocks</button>
+      <button class="nav-link" data-view="progress"><span class="nav-icon">▥</span> My Progress</button>
+    </nav>
+    <div class="side-heading side-heading--lower">ACCOUNT & CONTENT</div>
+    <nav class="nav"><button class="nav-link" data-view="premium"><span class="nav-icon">◇</span> Premium Access <span class="tiny-lock">✧</span></button><button class="nav-link" id="studioNav" data-view="studio"><span class="nav-icon">✎</span> Content Studio</button></nav>
+    <div class="side-spacer"></div>
+    <div class="sidebar-promo"><div class="promo-star">✦</div><strong>Unlock your potential</strong><p>Full step-by-step memorandums for just N$30.</p><button data-view="premium">Explore Premium <span>↗</span></button></div>
+    <div class="side-foot">Made for Namibian learners<br/>Powered by NamStudy Prep</div>
+  </aside>
+  <div class="main-area">
+   <header class="topbar"><div class="topbar-left"><button class="hamburger" id="menuBtn" aria-label="Open menu">☰</button><div class="breadcrumb">NAMMATH AS <span>/</span> <strong id="currentView">Dashboard</strong></div></div><div class="topbar-actions"><span class="edition">✦ EXAM EDITION 2026</span><button class="profile-pill" id="authButton"><span class="avatar" id="avatar">G</span><span id="authLabel">Guest learner</span><span class="chevron">⌄</span></button></div></header>
+   <main id="main" class="page" tabindex="-1"></main>
+   <footer class="footer"><span>© 2026 NamMath AS • A NamStudy Prep project</span><span>Built for NSSCAS Mathematics learners in Namibia</span></footer>
+  </div>
+ </div>
+ <div class="scrim hidden" id="scrim"></div>
+ <div id="modalRoot"></div>
+ <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+ <script src="/config.js"></script>
+ <script type="module" src="/app.js"></script>
+</body>
+</html>

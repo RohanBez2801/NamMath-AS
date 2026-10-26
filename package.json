@@ -1,0 +1,11 @@
+{
+  "name": "nammath-as",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone offline-ready PWA MVP for NSSCAS Mathematics",
+  "scripts": {
+    "start": "python3 -m http.server 5173",
+    "test": "node --check app.js && node --check data.js && node --check notes.js && node --check library.js && node --test tests/*.test.mjs"
+  }
+}
